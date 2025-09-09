@@ -10,8 +10,7 @@ namespace Session01_ORM.Contexts
 {
     public class CompanyContext : DbContext
 
-    {
-        public CompanyContext():base()
+    {        public CompanyContext():base()
             {
             }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
