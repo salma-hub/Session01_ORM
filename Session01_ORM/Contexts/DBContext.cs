@@ -18,8 +18,7 @@ namespace Session01_ORM.Contexts
         {
             optionsBuilder.UseSqlServer("server=.;database=CompanyG01;Trusted_Connection=True;TrustServerCertificate=true;");
 
-        }
-        public DbSet <Employee> Employees { get; set; }
+        }        public DbSet <Employee> Employees { get; set; }
 
     }
 }
